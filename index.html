@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <title>Portfolio Site</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- picturefill for <picture> compatibility -->
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="logo">
+          <img src="images/logo.svg" alt="mc9dev logo">
+        </div>
+
+        <div class="site-title">
+          <h1>Carolina Higo</h1>
+          <h4>The Full-stack Nanodegree Portfolio</h4>
+        </div>
+        <hr>
+      </header>
+
+      <section class="row banner">
+        <picture>
+          <source media="(min-width: 600px)" srcset="images/banner@2x.jpg"/>
+          <source media="(min-width: 450px)" srcset="images/banner.jpg"/>
+          <img src="images/banner-mobile.jpg" alt="A banner image with the symbols: peace, love and code" class="img-banner">
+        </picture>
+      </section>
+
+      <section class="row main">
+        <div class="main-title">
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="project1">
+          <picture>
+            <source media="(min-width: 600px)" srcset="images/project1@2x.jpg"/>
+            <img src="images/project1.jpg" alt="A screenshot of the Movie Trailer Website project" class="img-project1">
+          </picture>
+
+          <h4 class="project-number">Project 1</h4>
+          <h3 class="project-title">Movie Trailer Website</h3>
+
+          <p class="project-about">
+            <i class="fa fa-file-text" aria-hidden="true"></i>A site to see movies trailer
+          </p>
+
+          <p class="project-language">
+            <i class="fa fa-code" aria-hidden="true"></i>Python, HTML and CSS
+          </p>
+
+          <p class="project-link">
+            <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/mc4rol9/movie-trailer-website" target="_blank">Find the code here</a>
+          </p>
+        </div>
+
+        <div class="project2">
+          <picture>
+            <source media="(min-width: 600px)" srcset="images/project2@2x.jpg"/>
+            <img src="images/project2.jpg" alt="A screenshot of the Portfolio Site Project" class="img-project2">
+          </picture>
+
+          <h4 class="project-number">Project 2</h4>
+          <h3 class="project-title">Portfolio Site</h3>
+
+          <p class="project-about">
+            <i class="fa fa-file-text" aria-hidden="true"></i>This portfolio site
+          </p>
+
+          <p class="project-language">
+            <i class="fa fa-code" aria-hidden="true"></i>HTML, CSS and Javascript
+          </p>
+
+          <p class="project-link">
+            <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/mc4rol9/portfolio-site" target="_blank">Find the code here</a>
+          </p>
+        </div>
+
+
+        <div class="project3"><!-- TODO: change project infos when completed -->
+          <picture>
+            <source media="(min-width: 600px)" srcset="images/project3@2x.jpg"/>
+            <img src="images/project3.jpg" alt="A Coming Soon image for the project" class="img-project3">
+          </picture>
+
+          <h4 class="project-number">Project 3</h4>
+          <h3 class="project-title">Multi User Blog</h3>
+
+          <p class="project-about">
+            <i class="fa fa-file-text" aria-hidden="true"></i>A multi user blog
+          </p>
+
+          <p class="project-language">
+            <i class="fa fa-code" aria-hidden="true"></i>I don't know yet!
+          </p>
+
+          <p class="project-link">
+            <i class="fa fa-link" aria-hidden="true"></i><a href="https://github.com/mc4rol9/multi-user-blog" target="_blank">The code will be here</a>
+          </p>
+        </div>
+      </section>
+
+      <footer class="row">
+        <div class="footer-content">
+          <a href="https://br.linkedin.com/in/mariacarolina9" target="_blank">
+            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/mc4rol9" target="_blank">
+            <i class="fa fa-github-alt fa-3x" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/mariaCarolina9" target="_blank">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          </a>
+
+          <p>by mc9 with <i class="fa fa-heart" aria-hidden="true"></i></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

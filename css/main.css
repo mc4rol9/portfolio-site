@@ -1,0 +1,296 @@
+/*
+/ Stylesheet for Portfolio Site
+*/
+
+
+/* General */
+* {
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+nav,
+aside,
+hgroup,
+header,
+footer,
+figure,
+article,
+section,
+figcaption {
+  display: block;
+} /* HTML5 compatibility for older browsers  */
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #2d3c49;
+	font: 400 16px/1.2em "Lato", sans-serif;
+	background-color: #353535;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3em 4em 0 4em;
+	background-color: #fff;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1%;
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h4 {
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #a2a1a6;
+	font-size: 4em;
+	font-weight: 300;
+	margin: 0.15em 0 0.5em 0;
+}
+
+h2 {
+	display: inline-block;
+	color: #2d3c49;
+	font-size: 2.5em;
+	font-weight: 300;
+	background-color: #fed400;
+	padding: 0.5em;
+}
+
+h3 {
+	color: #a2a1a6;
+	font-size: 1.3em;
+	margin-top: 0;
+}
+
+h4 {
+	color: #2d3c49;
+	font-size: 1.2em;
+	margin: 0.3em 0;
+}
+
+a,
+a:link,
+a:visited {
+	color: #2d3c49;
+}
+
+a:hover {
+	color: #fed400;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.fa {
+	padding-right: 0.3em;
+}
+
+
+/* Header */
+header {
+	margin-bottom: 1.5em;
+}
+
+.logo {
+	width: 25%;
+	padding: 1% 0;
+}
+
+.site-title {
+	text-align: right;
+	width: 75%;
+	padding: 1% 0;
+}
+
+hr {
+	display: block;
+	width: 100%;
+	height: 0.2em;
+	margin: 0 auto;
+	background-color: #fed400;
+	border: 0;
+}
+
+
+/* Banner Section */
+.banner {
+	margin-bottom: 3em;
+}
+
+.img-banner {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Main Section */
+.main-title,
+.projects {
+	width: 100%;
+}
+
+.project1,
+.project2,
+.project3 {
+	text-align: left;
+	width: 30%;
+	height: 100%;
+}
+
+.project1,
+.project2 {
+	margin-right: 5%;
+}
+
+.img-project1,
+.img-project2,
+.img-project3 {
+	width: 100%;
+	max-height: 60%;
+}
+
+.fa-link,
+.fa-file-text,
+.fa-code {
+	color: #a2a1a6 !important;
+	margin-right: 1em;
+}
+
+
+/* Footer */
+footer {
+	margin-top: 3em;
+	padding-bottom: 0 !important;
+}
+
+.footer-content {
+	text-align: center;
+	width: 100%;
+	background-color: #fed400;
+	padding: 1em;
+}
+
+footer a:link,
+footer a:visited {
+	color: #2d3c49;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+	h1,
+	h2 {
+		font-size: 1em !important;
+	}
+
+	h3 {
+		font-size: 1.3em !important;
+	}
+
+	h4 {
+		font-size: 0.7em !important;
+	}
+
+	p {
+		font-size: 1em !important;
+	}
+
+	.project-number {
+		font-size: 1em !important;
+		text-align: left !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		padding: 0;
+	}
+
+	.row {
+		padding: 1% 5%;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		display: inherit;
+		font-size: 2em;
+		font-weight: 400;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.8em;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+
+	header {
+		margin-bottom: 1.5em !important;
+	}
+
+	.logo {
+		width: 25%;
+	}
+
+	.site-title {
+		width: 75%
+	}
+
+	.banner {
+		margin-bottom: 2em;
+	}
+
+	.project1,
+	.project2 {
+		width: 100%;
+		margin: 0 0 2em 0;
+		padding-bottom: 1em;
+		border-bottom: 0.5px solid #a2a1a6;
+	}
+
+	.project3 {
+		width: 100%;
+		margin: 0;
+	}
+
+	.project-number {
+		font-size: 2em;
+		text-align: right;
+	}
+
+	footer {
+		margin-top: 1.5em;
+	}
+}
