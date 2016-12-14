@@ -1,5 +1,5 @@
 # Portfolio Site
-This is a responsive HTML5 simple portfolio site. It shows a brief description of the projects
+This is a simple responsive HTML5 portfolio site. It shows a brief description of the projects
 and link each one to its respective repository on GitHub.
 
 **_This is the second project submission for Udacity Full Stack Web Developer Nanodegree Program._**
